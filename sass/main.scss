@@ -1,49 +1,29 @@
 //**UTILS**//
-@import './utils/variables';
-@import './utils/common';
-@import './utils/button';
-@import './utils/utils';
+@import './utils/main__utils';
 
 //**MAIN__HEADER**//
-@import './sections/01-main__header/main-header';
-@import './sections/01-main__header/logo';
-@import './sections/01-main__header/navigation';
-@import './sections/01-main__header/contact-nav';
+@import './components/01-main__header';
 
 //**MAIN__BANER**//
-@import './sections/02-main__baner/main-baner';
+@import './components/02-main__baner';
 
 //**MAIN__BENEFIT**//
-@import './sections/03-main__benefit/main-benefit';
+@import './components/03-main__benefit';
 
 //**MAIN__PHILOSOPHY**//
-@import './sections/04-main__philosophy/main-philosophy';
+@import './components/04-main__philosophy';
 
 //**MAIN__TEAM**//
-@import './sections/05-main__team/main-team';
-@import './sections/05-main__team/icon-team';
+@import './components/05-main__team';
 
 //**MAIN__CLIENT**//
-@import './sections/06-main__client/main-client';
+@import './components/06-main__client';
 
 //**MAIN__FOOTER**//
-@import './sections/07-main__footer/main-footer';
-@import './sections/07-main__footer/contact-list';
-@import './sections/07-main__footer/platform-site';
-@import './sections/07-main__footer/support-site';
+@import './components/07-main__footer';
 
 //**MAIN__PORTFOLIO**//
-@import './sections/08-main__portfolio/main-filter.scss';
-@import './sections/08-main__portfolio/project-list';
+@import './components/08-main__portfolio';
 
-//**MODAL**//
-@import './sections/modal/main-modal';
-@import './sections/modal/modal-form';
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+//**MAIN__MODAL**//
+@import './components/09-main__modal';

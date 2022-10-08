@@ -656,8 +656,6 @@ textarea {
 }
 
 .footer-support {
-  margin: 0;
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1062,12 +1060,4 @@ textarea {
 
 .check-label__checkbox:focus + .check-label__accept {
   fill: var(--link-color);
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }/*# sourceMappingURL=main.css.map */
